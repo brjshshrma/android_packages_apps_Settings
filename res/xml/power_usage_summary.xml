@@ -65,6 +65,12 @@
             android:title="@string/battery_percentage"
             android:summary="@string/battery_percentage_description"/>
 
+        <com.android.settings.custom.Preferences.SystemSettingSwitchPreference
+         android:key="lockscreen_battery_info"
+         android:title="@string/lockscreen_battery_info_title"
+         android:summary="@string/lockscreen_battery_info_summary"
+         android:defaultValue="false" />
+
         <!-- Cross-listed item, if you change this, also change it in display_settings.xml -->
         <SwitchPreference
             android:key="auto_brightness_battery"
