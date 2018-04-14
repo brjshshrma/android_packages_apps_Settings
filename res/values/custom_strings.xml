@@ -29,4 +29,7 @@
     <string name="lockscreen_battery_info_title">Battery charging current info</string>
     <string name="lockscreen_battery_info_summary">Display negotiated charger max current-voltage and battery temperature on lockscreen while charging</string>
 
+    <!-- Nitrogen Settings -->
+    <string name="custom_settings_title">Customization</string>
+    <string name="custom_settings_summary">Personalize additional settings</string>
 </resources>
