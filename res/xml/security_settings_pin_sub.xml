@@ -55,15 +55,4 @@
         android:title="@string/lockscreen_media_art_title"
         android:defaultValue="true" />
 
-    <com.android.settings.custom.Preferences.SecureSettingSwitchPreference
-        android:key="face_auto_unlock"
-        android:title="@string/face_auto_unlock_title"
-        android:summary="@string/face_auto_unlock_summary"
-        android:defaultValue="false" />
-
-    <com.android.settings.custom.Preferences.SystemSettingSwitchPreference
-        android:key="lockscreen_quick_unlock_control"
-        android:title="@string/unlock_quick_unlock_control_title"
-        android:summary="@string/unlock_quick_unlock_control_summary" />
-
 </PreferenceScreen>
