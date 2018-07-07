@@ -54,10 +54,4 @@
         android:key="24 hour"
         android:title="@string/date_time_24hour" />
 
-    <Preference
-        android:fragment="com.android.settings.custom.datetime.AdvancedDateTimeSettings"
-        android:key="advanced_date_time"
-        android:title="@string/advanced_date_time_title"
-        android:summary="@string/advanced_date_time_summary" />
-
 </PreferenceScreen>

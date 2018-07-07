@@ -24,7 +24,6 @@ import android.os.UserManager;
 import android.provider.SearchIndexableResource;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.settings.custom.datetime.AdvancedDateTimePreferenceController;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.dashboard.SummaryLoader;
 import com.android.settings.datetime.AutoTimePreferenceController;
@@ -96,7 +95,6 @@ public class DateTimeSettings extends DashboardFragment implements
                 activity, this /* UpdateTimeAndDateCallback */, autoTimePreferenceController));
         controllers.add(new DatePreferenceController(
                 activity, this /* UpdateTimeAndDateCallback */, autoTimePreferenceController));
-        controllers.add(new AdvancedDateTimePreferenceController(activity));
         return controllers;
     }
 
